@@ -7,10 +7,6 @@
 
 ```bash
 pip install flask
-```
-```bash
 pip install gensim==3.8.3
-```
-```bash
 pip install underthesea
 ```
