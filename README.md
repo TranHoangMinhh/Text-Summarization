@@ -11,9 +11,6 @@
   ```
   pip install genism==3.8.3
   ```
-  ```
-  pip install underthesea
-  ```
 
 
 </ul>
