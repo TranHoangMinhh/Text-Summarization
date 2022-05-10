@@ -6,5 +6,5 @@
 <li> Libraries: flask, gensim==3.8.3, underthesea </li>
 
 ```bash
-pip install markdown
+pip install flask
 ```
