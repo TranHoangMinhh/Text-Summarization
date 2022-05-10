@@ -1,0 +1,115 @@
+body{
+    font-family: 'helvatica', sans-serif;
+}
+
+.header{
+    font-family: 'helvatica', sans-serif;
+    font-size: 35px;
+    margin: auto;
+    text-align: center;
+    width: fit-content;
+    padding: 110px;
+    color: blue; 
+  }
+
+.container{
+    position: relative;
+    float: left;
+    margin-left: 12%;
+    margin-top: 0%;
+    padding: 10px;
+    width: 500px;
+    height: 400px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.03);
+}
+
+
+
+textarea{
+    margin: 5px;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+label.labels{
+    height: 20px;
+    width: fit-content;
+    position: absolute;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: white;
+    top: -8px;  
+    font-weight: 600;
+    font-size: 14px;
+    color: #256aa3;
+    text-align: center;
+}
+
+
+
+.textarea_style{
+    margin: 5px;
+    width: auto;
+    height: auto;
+    border: 1px #20527a;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#wrapper { 
+    position: absolute; 
+    left: 83%; 
+    right: 5%;
+    top: 88%; 
+    bottom: 10px; 
+} 
+
+input[type=submit] {
+    background: #000;
+    color: #fff;
+    border-radius: 30px;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    left: 80px;
+  }
+  
+input[type=submit]:hover {
+background-color: #45a049;
+}
+
+.btn {
+    position: absolute;
+    background-color: grey;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 12px 12px;
+    font-size: 14px;
+    top: 89%;
+    left: 1%;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #45a049;
+}
+  
+.card > p{
+    font-family: 'helvatica', sans-serif;
+    margin-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    line-height:30px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "{{url_for('static', filename ='css/main.css')}}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class = "header"> TEXT SUMMARIZATION DEMO</div>
+    <div class= "container" >
+        <form action="{{ url_for('submit') }}" method="POST">
+            <label class = "labels">Original Text</label><br>
+            <div class = "textarea_style">
+                <textarea class = "textarea" id = "textarea" name = "textarea_des" rows = "20" cols = "62"
+                placeholder= "Nhập văn bản cần tóm tắt ... ">{{first_input}}</textarea>
+                    <div id="wrapper">
+                    <input type="submit" value="Submit"></input>
+                </div>
+            </div><br>
+        </form>
+        <button class="btn" href = "/upload"  ><i class="fa fa-upload" aria-hidden="true"></i> Upload </button>    
+    </div>
+
+    <div class= "container" >
+        <form>
+            <label class = "labels">Summarized Text</label><br>
+            <div class = "textarea_style">
+                <textfield class = "textarea" id = "textarea" name = "textarea_des" rows = "20" cols = "62">{{final_summary}}</textfield>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
